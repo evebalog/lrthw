@@ -34,5 +34,5 @@ w = "This is the left side of..."
 # creates e variable and sets it equal to a string
 e = "a string with a right side."
 
-prints w and e variables onto the screen
+# prints w and e variables onto the screen
 puts w + e

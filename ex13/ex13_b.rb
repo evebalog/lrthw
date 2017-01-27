@@ -1,4 +1,5 @@
-#arguments passed on the command line, 3rd string will stay empty
+#arguments passed on the command line, error message due to third variable is undefined
+# only two arguments are asked in command line
 first, second = ARGV
 
 puts "Your first variable is: #{first}"

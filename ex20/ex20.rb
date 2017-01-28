@@ -6,7 +6,7 @@ def print_all(f)
 end
 #defines rewind method that takes a parameter
 #it calls the seek function on it with a parameter set to 0
-#i.e. it goes to line 0
+#i.e. it moves the file to the 0 byte (first byte) in the file 
 def rewind(f)
   f.seek(0)
 end

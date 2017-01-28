@@ -13,7 +13,7 @@ puts prompt
 lives = $stdin.gets.chomp
 
 # a comma for puts is like using it twice
-puts "What kind of computer do you have? ", prompt
+puts "What kind of computer do you have? ", "Be honest!", prompt
 computer = $stdin.gets.chomp
 
 puts """

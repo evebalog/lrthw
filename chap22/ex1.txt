@@ -1,0 +1,58 @@
+puts : 'put string' command, prints out string with a newline
+print : command, prints out string without a newline
+# : octothorpe or pound symbol, turns staff written after it into comment, Ruby doesn't read it as code
+= : equals symbol, sets variables to a value or other variables
++ : plus symbol, calculates sum or adds strings together
+- : minus symbol, subtracts
+/ : forwardslash symbol, divides
+* : asterisk symbol, multiplies - can also multiply strings
+% : percent sign, modulus in Ruby: divides a number on its left by number on its right and returns the remaining sum
+< : less-than symbol, returns boolean value true or false
+> : greater-than symbol, returns boolean value true or false
+<= : less-than-equal, returns true if either less than or equal to, otherwise false
+>= : greater-than-equal, returns true if either greater than or equal to, otherwise false
+#{} : string interpolation, embeds variables/calculations into strings
+irb : abbr. for interactive ruby shell, used for testing lines of code
+.to_f : method to change numbers (even from strings) to a float (number with decimal place)
+PEMDAS : acronym for Parentheses Exponents Multiplication Division Addition Subtraction (order of operations)
+variable : name for an object, gives values names, can be used again, has to start with a character
+string : Ruby object, anything between two single-, or double-quotes
+single-quoted strings : cannot take string interpolation
+%{} : formatting, applies the same format to multiple values
+\n : newline
+""" : creates a string, can take multi-lines of text until """ again
+\\ : types backslash into string
+\' : types single quote into string (only needed in single-quoted string)
+\" : same as above but in double-quoted strings
+\a : ASCII bell, alerts user with a beep
+\b : ASCII backspace, deletes last character of a string
+\f : page-breaking ASCII control character
+\r : carriage Return, shifts to the beginning of line and overwrites characters with characters that come after the /r
+\t : creates a tab
+\uxxxx :	Character with 16-bit hex value xxxx (Unicode only)
+\v	: ASCII vertical tab (VT), creates a tab but puts it at the end of the line
+\ooo : reads Character with octal value oo
+\xhh	: reads Character with hex value hh
+gets : takes input from user, also returns 'enter' i.e. a newline
+gets.chomp : takes input from user but cuts off the newline
+.chomp : method with a parameter to cut off characters of a string
+.to_i : method to convert strings/floats to integers
+ARGV : argument variable, takes arguments from the command line, stores values in array which can be unpacked into variables
+$stdin : standard input, stream in for user input, used with ARGV
+.open : function, opens a file that can be read or written over
+open(filename, 'w') : makes file writable, implicitly truncates it
+.read : function to read files, contents can be printed
+.close : function to close file, files should be closed once done with
+.readline : function to read just one line of a text file
+.truncate() : function to empty the file
+.write('stuff') : function to add "stuff" to the file
+.length : function to count length of a file
+File.exist?(filename) : returns true of false depending on whether  file exists
+*args : asterisks used in the parameter allow any number of arguments to be given
+def : define function
+end : end function
+.seek(0) : function to seek a line of a file, with 0 argument it rewinds to the beginning of the file
+filename.gets : gets first line of file with newline
+filename.gets.chomp : gets first line of file without newline
++= : adds 1 to the variable, the same as variable = variable + 1
+return : returns a value explicitly, last line of functions are implicitly returned

@@ -1,0 +1,20 @@
+animals = ['bear', 'ruby', 'peacock', 'kangaroo', 'whale', 'platypus']
+
+puts "\nThe animal at 1 is the 2nd animal and is a ruby."
+puts "The third (3rd) animal is at 2 and is a peacock."
+puts "The first (1st) animal is at 0 and is a bear."
+puts "The animal at 3 is the 4th animal and is a kangaroo."
+puts "The fifth (5th) animal is at 4 and is a whale."
+puts "The animal at 2 is the 3rd animal and is a peacock."
+puts "The sixth (6th) animal is at 5 and is a platypus."
+puts "The animal at 4 is the 3rd animal and is a whale."
+
+puts "\nChecking answers with Ruby:"
+puts "\nThe animal at 1 is a #{animals[1]}."
+puts "The third (3rd) animal is a #{animals[2]}."
+puts "The first (1st) animal is a #{animals[0]}."
+puts "The animal at 3 is a #{animals[3]}."
+puts "The fifth (5th) animal is a #{animals[4]}."
+puts "The animal at 2 is a #{animals[2]}."
+puts "The sixth (6th) animal is a #{animals[5]}."
+puts "The animal at 4 is a #{animals[4]}."

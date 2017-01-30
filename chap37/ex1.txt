@@ -1,0 +1,1 @@
+Updated words and symbols in chap22/ex1.txt.

@@ -11,6 +11,17 @@ print : command, prints out string without a newline
 > : greater-than symbol, returns boolean value true or false
 <= : less-than-equal, returns true if either less than or equal to, otherwise false
 >= : greater-than-equal, returns true if either greater than or equal to, otherwise false
+<=> :	comparison
+== 	: equal (boolean logic)
+=== : equality
+!= 	:not equal
+&& 	: logical AND (higher precedence)
+|| 	: logical OR (higher precedence)
+.. 	: range inclusive
+... : range non-inclusive (last value not included)
+@ 	: object scope
+@@ 	: class scope
+$ 	: global scope
 #{} : string interpolation, embeds variables/calculations into strings
 irb : abbr. for interactive ruby shell, used for testing lines of code
 .to_f : method to change numbers (even from strings) to a float (number with decimal place)
@@ -56,3 +67,27 @@ filename.gets : gets first line of file with newline
 filename.gets.chomp : gets first line of file without newline
 += : adds 1 to the variable, the same as variable = variable + 1
 return : returns a value explicitly, last line of functions are implicitly returned
+booleans  : true or false
+for-loop : iterates through each thing of an array of things
+while-loop : executes code while a certain condition is true
+if-statements : create branches in code, if a boolean expression is true, then it runs the code under it, otherwise skips
+exit(0) : finishes the code without an error message
+=~ : equal-tilde operator in ruby is the “match” operator
+=~ /\d+/ : ??? matches digits?
+\A : (anchor) matches from the beginning of a string
+\w : matches digits, alphabetical characters or underscore
+\s : matches whitespace characters (space, tab, newline)
+/\D/ matches non-digit characters
+BEGIN : run this block when the script starts
+END : run this block when the script is done
+alias : create another name for a function (alias X Y)
+and : logical and, but lower priority than &&
+begin : start a block, usually for exceptions
+break : break out of a loop right now
+case : case style conditional, like an if
+defined? : is this defined already (class, function, etc.)
+Kernel module : is included by class Object, so its methods are available in every Ruby object
+sprintf : %
+%b : returns binary values
+%d : returns integer values
+hash : stores a key=value mapping of things
